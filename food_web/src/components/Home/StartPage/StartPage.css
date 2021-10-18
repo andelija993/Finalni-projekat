@@ -1,0 +1,38 @@
+ .buttonstart{
+	display: inline-block;
+	border:initial;
+	width: 220px;
+	padding: 15px;
+	background: #f08f40;
+	color: #fff;
+	border-radius: 40px;
+	text-align: center;
+	font-weight: 700;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-left: 800px;
+	margin-top: -10px;
+	transition: 0.3s all ease-in-out;
+	font-family:cursive;
+ }     
+
+  
+  .buttonstart:focus {
+    outline: none;
+  }
+  .buttonstart:hover {
+    background: rgb(223, 195, 39);
+  }
+
+
+  .pick{
+	  display: block;
+	  font-family: cursive;
+	  margin-top: 25px;
+	  margin-bottom: 25px;
+	  text-align: center;
+	  font-size: 17px;
+	  font-weight:600;
+  }

@@ -1,0 +1,78 @@
+.wrapper {
+display: flex;
+margin-top: 60px;
+}
+
+.recipe_presentation  {
+width: 30%;
+float: left;
+padding: 10px;
+border: 2px solid rgb(230, 146, 38);
+margin-right: 130px;
+}
+
+.ingredients {
+margin-top: 10px;
+width: 50%;
+float: left;
+padding: 20px;
+font-family:cursive;  
+}
+
+.img{
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.h1style{
+  text-align: center;
+  margin-top: 45px;
+  font-family: cursive;
+}
+
+.method {
+  width: 60%;
+  display: block;
+  margin-top: 20px;
+  margin-left: 130px;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.h2style{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: cursive; 
+}
+
+.h2s{
+  font-family: cursive; 
+}
+
+ul{
+  list-style-type: none
+}
+
+.youtube {
+  display: flex;
+  width: 35px;
+  cursor: pointer;
+}
+
+.like {
+  width: 27px;
+  cursor: pointer;
+}
+
+.globus{
+  width: 13px;
+}
+
+.additional {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 15px;
+}

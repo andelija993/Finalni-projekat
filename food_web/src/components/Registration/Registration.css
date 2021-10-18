@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+  }
+  body a{
+    color:#272626;
+    text-decoration: none;
+   
+  }
+  .registration-form-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 900px;
+      height: 540px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0px 0px 47px 0px rgba(0, 0, 0, 0.47);
+      margin-top: 45px;
+      background-image: url(regpic3.png);
+      background-size: cover;
+      background: position 20px 340px;
+  }
+  .welcome-text p {
+      font-size: 15px;
+  }
+  .left-section-reg{
+    position: relative;
+    width: 650px;
+    height: 800px;
+    float:center;
+  }
+  .right-section-reg {
+      width: 800px;
+      position: relative;
+      height: 150vh;
+      float: right;
+     
+      object-fit: cover;
+  }
+  
+  .title-reg {
+      text-align: center;
+      margin-top: 50px;
+      color: #fff8f1;
+      text-shadow: 1px 1px 2px rgb(202, 99, 30), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+      line-height: 30px;
+      margin-bottom: 30px;
+  }
+  .reg-form {
+      max-width: 260px;
+      margin: 0 auto;
+      text-align: center;
+     
+  }
+  .text-reg {
+      width: 300px;
+      padding: 14px 12px;
+      border-radius: 30px;
+      border: 1px solid #ddd;
+      margin-bottom: 15px;
+      outline: none;
+      box-shadow: 0px 0px 42px #e6a977;
+  }
+
+  .pass-reg {
+    width: 300px;
+    padding: 14px 12px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: 0px 0px 42px #e6a977;
+}
+
+
+  .button {
+      display: inline-block;
+      border: none;
+      width: 170px;
+      padding: 11px;
+      background: #f08f40;
+      color: #fff;
+      border-radius: 30px;
+      text-align: center;
+      font-weight: 400;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      margin: 20px 0px;
+      transition: 0.3s all ease-in-out;
+  }
+  .button:focus {
+    outline: none;
+  }
+  .button:hover {
+    background: rgb(161, 18, 18);
+  }
+  .back-to-login {
+      font-weight: 500;
+      font-size: 14px;
+      color: #eee7e5;
+      margin-top: 10px;
+  }

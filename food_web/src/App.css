@@ -1,0 +1,24 @@
+.header {
+color: wheat;
+background-color:snow;
+display: flex;
+flex-direction: row;
+padding: 1px;
+font-size:15px;
+font-weight:bold;
+box-shadow: 0 2px 4px 0 rgb(240, 100, 8);
+margin-left: 3px;
+}
+
+.hamburger {
+width:30px;
+height:36px;
+margin:15px;
+}
+
+.nav {
+ display:flex;
+align-items:center;
+padding-right: 10px;
+justify-content: space-between;
+}

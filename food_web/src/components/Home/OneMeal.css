@@ -1,0 +1,26 @@
+
+.onecontainer {
+display: flexbox;   
+}
+
+
+.onerecipe{
+float: left;
+padding: 5px;
+border-right: 15px;    
+}
+
+
+.oneimg {
+width:200px;
+cursor: pointer;
+}
+
+.onep {
+display:block;
+width: 220px;
+word-wrap: break-word;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
